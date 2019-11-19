@@ -12,7 +12,9 @@
 
 ---
 
-## 목록사용법
+### 목록사용법
+
+
 Unordered 
 * Item 1 
 * Item 2 
@@ -31,7 +33,9 @@ odered는 숫자를 붙여 사용한다
 
 ---
 
-## 이미지 삽입
+### 이미지 삽입
+
+
 첫번째 방법 
 ![Github logo](/images/markdown_logo.jpg) 
 Format: ![이미지 alt명](url 링크) 
@@ -42,12 +46,16 @@ Format: img 태그 사용 - 이미지경로는 상대경로 or 절대경로
 
 ---
 
-## 하이퍼링크
+### 하이퍼링크
+
+
 [GitHub](http://github.com "깃허브")
 
 ---
 
-## 코드 블록
+### 코드 블록
+
+
 해당 언어를 쓰면 인식한다
 ```C++ 
 int main() {
@@ -58,10 +66,55 @@ int main() {
 ```
 ---
 
-## 인용상자
+### 인용상자
+
+
 As Grace Hopper said: 
 
 > I’ve always been more interested. 
 > in the future than in the past.
+
+---
+
+### 강조
+
+
+*This text will be italic* 
+_This will also be italic_ 
+
+**This text will be bold** 
+__This will also be bold__ 
+
+*You **can** combine them*
+
+---
+
+### 표 만들기
+
+
+First Header | Second Header 
+------------ | ------------- 
+Content cell 1 | Content cell 2 
+Content column 1 | Content column 2
+
+---
+
+### 체크박스
+
+
+- [x] this is a complete item 
+- [ ] this is an incomplete item 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported 
+- [x] list syntax required (any unordered or ordered list supported)
+
+---
+
+### 인라인 코드
+
+
+문단 중간에 `Code`를 넣을 수 있습니다. 
+예를 들어 `printf("hello world!");` 이런 식으로 들어갑니다.
+
+---
 
 

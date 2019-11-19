@@ -10,6 +10,7 @@
 ###### 해더 크기 (h6)
 #의 갯수에 따라 글자의 크기가 달라진다 하나가 가장 크고 6개가 가장 작다
 
+---
 
 목록사용법
 Unordered 
@@ -28,6 +29,7 @@ Ordered
 unodered는 *을 붙여 사용한다
 odered는 숫자를 붙여 사용한다
 
+---
 
 이미지 삽입
 첫번째 방법 
@@ -38,12 +40,12 @@ Format: ![이미지 alt명](url 링크)
 <a href="#"><img src="https://github.com/..각자절대경로../images/markdown_syntax.jpg" width="400px" alt="sample image"></a> 
 Format: img 태그 사용 - 이미지경로는 상대경로 or 절대경로
 
-
+---
 
 하이퍼링크
 [GitHub](http://github.com "깃허브")
 
-
+---
 
 코드 블록
 해당 언어를 쓰면 인식한다
@@ -54,7 +56,7 @@ int main() {
   cout << a;
 }
 ```
-
+---
 
 인용상자
 As Grace Hopper said: 

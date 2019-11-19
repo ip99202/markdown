@@ -26,4 +26,38 @@ Ordered
     1. Item 3b
     
 unodered는 *을 붙여 사용한다
-odered는 숫자를 붙여 
+odered는 숫자를 붙여 사용한다
+
+
+이미지 삽입
+첫번째 방법 
+![Github logo](/images/markdown_logo.jpg) 
+Format: ![이미지 alt명](url 링크) 
+
+두번째 방법 
+<a href="#"><img src="https://github.com/..각자절대경로../images/markdown_syntax.jpg" width="400px" alt="sample image"></a> 
+Format: img 태그 사용 - 이미지경로는 상대경로 or 절대경로
+
+
+
+하이퍼링크
+[GitHub](http://github.com "깃허브")
+
+
+
+코드 블록
+해당 언어를 쓰면 인식한다
+```C++ 
+int main() {
+  int a;
+  cin >> a;
+  cout << a;
+}
+```
+
+
+인용상자
+As Grace Hopper said: 
+
+> I’ve always been more interested. 
+> in the future than in the past.
